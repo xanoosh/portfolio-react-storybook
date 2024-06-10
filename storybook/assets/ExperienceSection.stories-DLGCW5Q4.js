@@ -1,0 +1,11 @@
+import{j as e,w as h,r as f}from"./jsx-runtime-CMRc7bh6.js";import"./tiny-invariant-CopsF_GD.js";import"./index-CsdIBAqE.js";function a({title:t,text:s,list:i}){return e.jsxs("div",{className:"flex flex-col gap-6 text-white",children:[t&&t.length>0?e.jsx("h1",{className:"text-2xl font-semibold",children:t}):null,s&&s.length>0?e.jsx("p",{children:s}):null,e.jsx("hr",{className:"border-slate-400"}),i&&i.length>0?e.jsx("ol",{reversed:!0,className:"list-decimal pl-8",children:i.map(({title:p,date:m,responsibilities:r},x)=>e.jsx("li",{className:"marker:text-3xl mb-6",children:e.jsxs("div",{className:"flex flex-col gap-3",children:[e.jsxs("div",{children:[e.jsx("h2",{className:"text-lg font-semibold",children:p}),e.jsx("h3",{className:"text-slate-400 font-semibold",children:m})]}),r.length>0?e.jsx("ul",{className:"list-square pl-2",children:r.map((d,u)=>e.jsx("li",{className:"marker:text-base mb-1",children:d},u))}):null]})},x))}):null]})}try{a.displayName="ExperienceSection",a.__docgenInfo={description:"",displayName:"ExperienceSection",props:{title:{defaultValue:null,description:"",name:"title",required:!1,type:{name:"string"}},text:{defaultValue:null,description:"",name:"text",required:!1,type:{name:"string"}},list:{defaultValue:null,description:"",name:"list",required:!1,type:{name:"ExperienceListElement[]"}}}}}catch{}const y={title:"Portfolio/ExperienceSection",component:a,parameters:{layout:"centered",backgrounds:{default:"dark"}},decorators:[h({results:f})],tags:["autodocs"]},l={args:{title:"example title",text:"example ExperienceSection text",list:[{title:"example list title",date:"example date string",responsibilities:["example responsibility 1","example responsibility 2","example responsibility 3"]}]}};var n,c,o;l.parameters={...l.parameters,docs:{...(n=l.parameters)==null?void 0:n.docs,source:{originalSource:`{
+  args: {
+    title: 'example title',
+    text: 'example ExperienceSection text',
+    list: [{
+      title: 'example list title',
+      date: 'example date string',
+      responsibilities: ['example responsibility 1', 'example responsibility 2', 'example responsibility 3']
+    }]
+  }
+}`,...(o=(c=l.parameters)==null?void 0:c.docs)==null?void 0:o.source}}};const E=["ExampleExperienceSection"];export{l as ExampleExperienceSection,E as __namedExportsOrder,y as default};
