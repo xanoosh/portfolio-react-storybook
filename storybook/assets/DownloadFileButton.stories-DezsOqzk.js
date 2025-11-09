@@ -1,0 +1,14 @@
+import{j as d}from"./jsx-runtime-u17CrQMm.js";import{r as n}from"./iframe-BBRezbCQ.js";import"./preload-helper-PPVm8Dsz.js";function u({title:e,titleId:a,...r},t){return n.createElement("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 16 16",fill:"currentColor","aria-hidden":"true","data-slot":"icon",ref:t,"aria-labelledby":a},r),e?n.createElement("title",{id:a},e):null,n.createElement("path",{d:"M8.75 2.75a.75.75 0 0 0-1.5 0v5.69L5.03 6.22a.75.75 0 0 0-1.06 1.06l3.5 3.5a.75.75 0 0 0 1.06 0l3.5-3.5a.75.75 0 0 0-1.06-1.06L8.75 8.44V2.75Z"}),n.createElement("path",{d:"M3.5 9.75a.75.75 0 0 0-1.5 0v1.5A2.75 2.75 0 0 0 4.75 14h6.5A2.75 2.75 0 0 0 14 11.25v-1.5a.75.75 0 0 0-1.5 0v1.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25v-1.5Z"}))}const p=n.forwardRef(u),f=async(e,a)=>{const t=await(await fetch(a)).blob(),i=window.URL.createObjectURL(t),o=document.createElement("a");o.href=i,o.download=e,o.click()};function c({text:e,fileName:a,filePath:r,disabled:t=!1}){const i=t===!0?"bg-sky-700 ring-sky-700":"bg-sky-700 ring-sky-700 hover:bg-pink-600 hover:ring-pink-600",o=t?"cursor-not-allowed opacity-70":"cursor-pointer";return e.length===0?null:d.jsxs("button",{onClick:()=>f(a,r),className:`text-white py-1.5 px-4 rounded-lg text-md flex flex-row gap-2 items-center transition-bg duration-300 ease-in-out focus:outline-none focus:ring-2 ring-offset-4 ring-offset-slate-800 ${i} ${o}`,disabled:t,children:[d.jsx(p,{className:"w-4 h-4"}),d.jsx("span",{children:e})]})}try{c.displayName="DownloadFileButton",c.__docgenInfo={description:"",displayName:"DownloadFileButton",props:{text:{defaultValue:null,description:"",name:"text",required:!0,type:{name:"string"}},fileName:{defaultValue:null,description:"",name:"fileName",required:!0,type:{name:"string"}},filePath:{defaultValue:null,description:"",name:"filePath",required:!0,type:{name:"string"}},disabled:{defaultValue:{value:"false"},description:"",name:"disabled",required:!1,type:{name:"boolean"}}}}}catch{}const x={title:"Portfolio/DownloadFileButton",component:c,parameters:{layout:"centered"},tags:["autodocs"]},l={args:{text:"example primary download button text",fileName:"file.pdf",filePath:"/"}},s={args:{text:"example disabled primary download button text",fileName:"file.pdf",filePath:"/",disabled:!0}};l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{
+  args: {
+    text: 'example primary download button text',
+    fileName: 'file.pdf',
+    filePath: '/'
+  }
+}`,...l.parameters?.docs?.source}}};s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  args: {
+    text: 'example disabled primary download button text',
+    fileName: 'file.pdf',
+    filePath: '/',
+    disabled: true
+  }
+}`,...s.parameters?.docs?.source}}};const h=["DownloadFileButtonEnabled","DownloadFileButtonDisabled"];export{s as DownloadFileButtonDisabled,l as DownloadFileButtonEnabled,h as __namedExportsOrder,x as default};
