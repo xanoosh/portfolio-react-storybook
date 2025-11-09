@@ -1,0 +1,14 @@
+import{j as d}from"./jsx-runtime-u17CrQMm.js";import{r as n}from"./iframe-Co8dphWk.js";import"./preload-helper-PPVm8Dsz.js";function p({title:e,titleId:o,...r},t){return n.createElement("svg",Object.assign({xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 16 16",fill:"currentColor","aria-hidden":"true","data-slot":"icon",ref:t,"aria-labelledby":o},r),e?n.createElement("title",{id:o},e):null,n.createElement("path",{d:"M8.75 2.75a.75.75 0 0 0-1.5 0v5.69L5.03 6.22a.75.75 0 0 0-1.06 1.06l3.5 3.5a.75.75 0 0 0 1.06 0l3.5-3.5a.75.75 0 0 0-1.06-1.06L8.75 8.44V2.75Z"}),n.createElement("path",{d:"M3.5 9.75a.75.75 0 0 0-1.5 0v1.5A2.75 2.75 0 0 0 4.75 14h6.5A2.75 2.75 0 0 0 14 11.25v-1.5a.75.75 0 0 0-1.5 0v1.5c0 .69-.56 1.25-1.25 1.25h-6.5c-.69 0-1.25-.56-1.25-1.25v-1.5Z"}))}const u=n.forwardRef(p),f=async(e,o)=>{const t=await(await fetch(o)).blob(),i=window.URL.createObjectURL(t),a=document.createElement("a");a.href=i,a.download=e,a.click()};function c({text:e,fileName:o,filePath:r,disabled:t=!1}){const i=t===!0?"bg-sky-700 ring-sky-700":"bg-sky-700 ring-sky-700 hover:bg-pink-600 hover:ring-pink-600",a=t?"cursor-not-allowed opacity-70":"cursor-pointer";return e.length===0?null:d.jsxs("button",{onClick:()=>f(o,r),className:`text-white py-1.5 px-4 rounded-lg text-md flex flex-row gap-2 items-center transition-bg duration-300 ease-in-out focus:outline-none focus:ring-2 ring-offset-4 ring-offset-slate-800 ${i} ${a}`,disabled:t,children:[d.jsx(u,{className:"w-4 h-4"}),d.jsx("span",{children:e})]})}c.__docgenInfo={description:"",methods:[],displayName:"DownloadFileButton",props:{text:{required:!0,tsType:{name:"string"},description:""},fileName:{required:!0,tsType:{name:"string"},description:""},filePath:{required:!0,tsType:{name:"string"},description:""},disabled:{required:!1,tsType:{name:"boolean"},description:"",defaultValue:{value:"false",computed:!1}}}};const x={title:"Portfolio/DownloadFileButton",component:c,parameters:{layout:"centered"},tags:["autodocs"]},s={args:{text:"example primary download button text",fileName:"file.pdf",filePath:"/"}},l={args:{text:"example disabled primary download button text",fileName:"file.pdf",filePath:"/",disabled:!0}};s.parameters={...s.parameters,docs:{...s.parameters?.docs,source:{originalSource:`{
+  args: {
+    text: 'example primary download button text',
+    fileName: 'file.pdf',
+    filePath: '/'
+  }
+}`,...s.parameters?.docs?.source}}};l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`{
+  args: {
+    text: 'example disabled primary download button text',
+    fileName: 'file.pdf',
+    filePath: '/',
+    disabled: true
+  }
+}`,...l.parameters?.docs?.source}}};const h=["DownloadFileButtonEnabled","DownloadFileButtonDisabled"];export{l as DownloadFileButtonDisabled,s as DownloadFileButtonEnabled,h as __namedExportsOrder,x as default};
